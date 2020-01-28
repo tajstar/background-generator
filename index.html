@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Gradient Background Generator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/monolith.min.css"/>
-</head>
-<body id="gradient">
-	<h1>Background Generator</h1>
-	<input class="color1" type="color" name="color1" value="#00ff00">
-	<input class="color2" type="color" name="color2" value="#ff0000">
-	<h2>This is the background</h2>
-	<h3 class="css-code"></h3>
-	
+<html lang="en" dir="ltr">
+  <head>
+    <title>Gradient background</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/> <!-- 'nano' theme -->
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Colors.js/1.2.4/colors.min.js"></script>
+  </head>
+  <body id="grad">
+    <h1>Design color generator</h1>
 
-<!-- Modern or es5 bundle -->
-<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-</body>
+    <!-- <input type="color" class="color1 jscolor" name="color1" value="#ff00ff"> -->
+    <!-- <input type="color" class="color2 jscolor" name="color2" value="#00ff00"> -->
+    <!-- <div class="color-scale">
+      <label>Hue:</label><input id="hue" type="range" name="hue-scale" min="0" max="360"><label>Saturation:</label><input id="saturation" type="range" name="saturation-scale" min="0" max="100"><label>Lightness:</label><input id="lightness" type="range" name="lightness-scale" min="0" max="100">
+    </div> -->
+    <h2>Current CSS background</h2>
+    <div class="color-picker"></div>
+    <button class="button">Go!</button>
+    <button class="button">Random</button>
+    <h3></h3>
+    <h3></h3>
+
+    <!-- Modern or es5 bundle -->
+    <script type="text/javascript" src="generator2.js"></script>
+
+  </body>
 </html>
