@@ -1,2 +1,3 @@
-# background-generator
-background generator for web pages 
+# background-generator #
+
+background generator for web pages
