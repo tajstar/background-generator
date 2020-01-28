@@ -1,11 +1,19 @@
 {
   "name": "background-generator",
   "version": "1.0.0",
-  "description": "generates background colors",
+  "description": "background generator",
   "main": "generator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tajstar/background-generator.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tajstar/background-generator/issues"
+  },
+  "homepage": "https://github.com/tajstar/background-generator#readme"
 }
